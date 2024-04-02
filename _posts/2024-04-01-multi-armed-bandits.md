@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Welcome to Jekyll!
-subtitle: A awesome static site generator.
-author: Jeffrey
-categories: jekyll
+title: Database performance tuning with Multi-armed Bandits
+subtitle: Performance tuning is a crucial step in database preparation since it enables fast query responses to user enquiries. This project aims to fully automate performance tuning of databases by choosing physical design structures that speed up query analysis. Our approach removes the need for costly human personnel and automatically adjusts to user queries (and data) whilst they are doing analysis. DBA Bandits are not only able to successfully tune unpredictable and ad hoc workloads (unknown a priori), but also provide statistical guarantees on the fitness of proposed design structures – first such guarantees in the world of database performance tuning.
+author: Renata
+categories: MAB
 banner:
   # video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true
@@ -21,9 +21,7 @@ top: 1
 sidebar: []
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Performance tuning is a crucial step in database preparation since it enables fast query responses to user enquiries. This project aims to fully automate performance tuning of databases by choosing physical design structures that speed up query analysis. Our approach removes the need for costly human personnel and automatically adjusts to user queries (and data) whilst they are doing analysis. DBA Bandits are not only able to successfully tune unpredictable and ad hoc workloads (unknown a priori), but also provide statistical guarantees on the fitness of proposed design structures – first such guarantees in the world of database performance tuning.
 
 ## section 1
 
