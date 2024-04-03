@@ -25,8 +25,11 @@ Performance tuning is a crucial step in database preparation since it enables fa
 
 ## This is a video
 
+<!-- ![](//www.youtube.com/watch?v=glBoRyShD7E&list=PLSE8ODhjZXjYVdJKka5g3xTKfPBITrxOu&index=2) -->
+<div style="display: flex; justify-content: center;">
+    <iframe width="80%" height="400" src="https://www.youtube.com/embed/glBoRyShD7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-![](//www.youtube.com/watch?v=glBoRyShD7E&list=PLSE8ODhjZXjYVdJKka5g3xTKfPBITrxOu&index=2)
 
 ## This is a paper 
 
