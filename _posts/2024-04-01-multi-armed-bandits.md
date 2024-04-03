@@ -10,7 +10,7 @@ banner:
   volume: 0.8
   start_at: 8.5
   image: https://miro.medium.com/v2/resize:fit:1200/1*5q0Mihf29fftuXpKWWX2uA.png
-  opacity: 0.68
+  opacity: 0.618
   background: "#000"
   height: "100vh"
   min_height: "38vh"
