@@ -33,7 +33,7 @@ Performance tuning is a crucial step in database preparation since it enables fa
 
 ### 3. HMAB: Self-Driving Hierarchy of Bandits for Integrated Physical Database Design Tuning
 
-<p><b>VLDB, 2022. HMAB: Self-Driving Hierarchy of Bandits for Integrated Physical Database Design Tuning. M. Perera, B. Oetomo, B. I. P. Rubinstein, and <u>R. Borovica-Gajic</u>. <a href="/data/2022_vldb.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/slides/2022_vldb_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://www.vldb.org/pvldb/vol16/p216-perera.pdf" target="_blank">Link</a>&nbsp;<a href="https://www.youtube.com/watch?v=98xl-A9ZSOs" target="_blank">Video</a>&nbsp;<a href="https://dblp.org/rec/journals/pvldb/PereraORB22.html?view=bibtex" target="_blank">BibTex</a>&nbsp;<a href="https://github.com/malingaperera/HMAB" target="_blank">Code</a></b></p> 
+<p><b>VLDB, 2022. HMAB: Self-Driving Hierarchy of Bandits for Integrated Physical Database Design Tuning. M. Perera, B. Oetomo, B. I. P. Rubinstein, and <u>R. Borovica-Gajic</u>. <a href="/data/2022_vldb.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2022_vldb_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://www.vldb.org/pvldb/vol16/p216-perera.pdf" target="_blank">Link</a>&nbsp;<a href="https://www.youtube.com/watch?v=98xl-A9ZSOs" target="_blank">Video</a>&nbsp;<a href="https://dblp.org/rec/journals/pvldb/PereraORB22.html?view=bibtex" target="_blank">BibTex</a>&nbsp;<a href="https://github.com/malingaperera/HMAB" target="_blank">Code</a></b></p> 
 
 <div style="display: flex; justify-content: center;">
     <iframe width="80%" height="400" src="https://www.youtube.com/embed/98xl-A9ZSOs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -41,7 +41,7 @@ Performance tuning is a crucial step in database preparation since it enables fa
 
 ### 4. Cutting to the Chase with Warm-Start Contextual Bandits
 
-<p><b>ICDM, 2021. Cutting to the Chase with Warm-Start Contextual Bandits. B. Oetomo, M. Perera, <u>R. Borovica-Gajic</u> and B. I. P. Rubinstein. <a href="/data/2021_icdm.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/slides/2021_icdm_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://ieeexplore.ieee.org/document/9679034" target="_blank">Link</a>&nbsp;<a href="/data/videos/2021_icdm.mp4" target="_blank">Video</a>&nbsp;<a href="https://dblp.org/rec/conf/icdm/OetomoPBR21.html?view=bibtex" target="_blank">BibTex</a></b></p> 
+<p><b>ICDM, 2021. Cutting to the Chase with Warm-Start Contextual Bandits. B. Oetomo, M. Perera, <u>R. Borovica-Gajic</u> and B. I. P. Rubinstein. <a href="/data/2021_icdm.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2021_icdm_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://ieeexplore.ieee.org/document/9679034" target="_blank">Link</a>&nbsp;<a href="/data/2021_icdm.mp4" target="_blank">Video</a>&nbsp;<a href="https://dblp.org/rec/conf/icdm/OetomoPBR21.html?view=bibtex" target="_blank">BibTex</a></b></p> 
 
 <div style="display: flex; justify-content: center;">
     <iframe width="80%" height="400" src="https://renata.borovica-gajic.com/data/videos/2021_icdm.mp4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -49,7 +49,7 @@ Performance tuning is a crucial step in database preparation since it enables fa
 
 ### 5. DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees
 
-<p><b>ICDE, 2021. DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees. M. Perera, B. Oetomo, B. I. P. Rubinstein, and <u>R. Borovica-Gajic</u>. <a href="/data/2021_icde.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/slides/2021_icde_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://ieeexplore.ieee.org/document/9458699" target="_blank">Link</a>&nbsp;<a href="https://www.youtube.com/watch?v=7PohjU29Hjk" target="_blank">Video</a>&nbsp;<a href="https://dblp.uni-trier.de/rec/conf/icde/PereraORB21.html?view=bibtex" target="_blank">BibTex</a>&nbsp;<a href="https://github.com/malingaperera/DBABandits" target="_blank">Code</a></b></p> 
+<p><b>ICDE, 2021. DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees. M. Perera, B. Oetomo, B. I. P. Rubinstein, and <u>R. Borovica-Gajic</u>. <a href="/data/2021_icde.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2021_icde_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://ieeexplore.ieee.org/document/9458699" target="_blank">Link</a>&nbsp;<a href="https://www.youtube.com/watch?v=7PohjU29Hjk" target="_blank">Video</a>&nbsp;<a href="https://dblp.uni-trier.de/rec/conf/icde/PereraORB21.html?view=bibtex" target="_blank">BibTex</a>&nbsp;<a href="https://github.com/malingaperera/DBABandits" target="_blank">Code</a></b></p> 
 
 <div style="display: flex; justify-content: center;">
     <iframe width="80%" height="400" src="https://www.youtube.com/embed/7PohjU29Hjk" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
