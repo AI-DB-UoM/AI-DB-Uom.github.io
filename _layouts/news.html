@@ -1,0 +1,72 @@
+---
+layout: framework
+<!-- sidebar: archive-list -->
+---
+
+<!-- {%- if site.posts.size > 0 -%}
+
+  {% include functions.html func='log' level='debug' msg='Get datetimes value' %}
+
+  {% assign filter = '%Y' %}
+  {% include functions.html func='get_datetimes' %}
+  {% assign datetimes = return %}
+
+  {% assign keys = datetimes | reverse %}
+  {% assign field = 'date' %}
+  {% include views/segments.html %}
+
+{%- endif -%}  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- <head>
+    <meta charset="UTF-8">
+    <title>Latest News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .news-item {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .news-title {
+            font-size: 24px;
+            color: #333;
+        }
+        .news-date {
+            font-size: 14px;
+            color: #666;
+        }
+        .news-content {
+            font-size: 16px;
+            color: #444;
+        }
+    </style>
+</head> -->
+<body>
+    <!-- <h1>News Updates</h1> -->
+
+  <div>
+    <h2>Paper Accepted at VLDB 2024</h2>
+    <p>April 15, 2024</p>
+    <p>
+        We are thrilled to announce that our paper, "SeLeP: Learning Based Semantic Prefetching for Exploratory Database Workloads," authored by F. Zirak, F. Choudhury, and R. Borovica-Gajic, has been officially accepted for publication and presentation at the VLDB 2024 conference. 
+    </p>
+    <p>
+        For more details about the paper and access to the pre-publication PDF, please <a href="link-to-pdf">click here</a>.
+    </p>
+  </div>
+
+  <div >
+    <h2 >ADC 2023</h2>
+    <p >October 2023</p>
+    <p >
+      ADC 2023 will be held in Melbourne. We have introduced several new tracks such as Encore Track (for students to learn from peers) and Shepherding Track (for student research training).
+    </p>
+</div>
+  
+
+</body>
+</html>

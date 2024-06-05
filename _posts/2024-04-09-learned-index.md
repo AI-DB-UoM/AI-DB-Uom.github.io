@@ -9,7 +9,8 @@ banner:
   loop: true
   volume: 0.8
   start_at: 8.5
-  image: https://blog.acolyer.org/wp-content/uploads/2018/01/learned-index-fig-1.jpeg?w=520
+  # image: https://blog.acolyer.org/wp-content/uploads/2018/01/learned-index-fig-1.jpeg?w=520
+  image: /assets/images/learned_index.png
   opacity: 0.618
   background: "#000"
   height: "100vh"
