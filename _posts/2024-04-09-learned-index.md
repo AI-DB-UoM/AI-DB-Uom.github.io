@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learned indexes with Machine Learning
-subtitle: Learned indexes leverage Machine Learning (ML) models to approximate the distribution of data towards building auxiliary data structures that can replace traditional database indexes. Learned indexes deliver the promise of reduced memory footprint and faster data retrieval. We investigate the efficiency of existing learned models, and propose advancements with respect to the model complexity as well as suitability of the learned indexes for the on-disk placement.
+# subtitle: Learned indexes leverage Machine Learning (ML) models to approximate the distribution of data towards building auxiliary data structures that can replace traditional database indexes. Learned indexes deliver the promise of reduced memory footprint and faster data retrieval. We investigate the efficiency of existing learned models, and propose advancements with respect to the model complexity as well as suitability of the learned indexes for the on-disk placement.
 author: Renata
 categories: Learned-Index
 banner:
@@ -22,7 +22,9 @@ top: 2
 sidebar: []
 ---
 
+<p><b>
 Learned indexes leverage Machine Learning (ML) models to approximate the distribution of data towards building auxiliary data structures that can replace traditional database indexes. Learned indexes deliver the promise of reduced memory footprint and faster data retrieval. We investigate the efficiency of existing learned models, and propose advancements with respect to the model complexity as well as suitability of the learned indexes for the on-disk placement.
+</b></p>
 
 ### 1. A Fully On-disk Updatable Learned Index
 

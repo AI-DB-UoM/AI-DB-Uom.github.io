@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Database performance tuning with Multi-armed Bandits
-subtitle: Performance tuning is a crucial step in database preparation since it enables fast query responses to user enquiries. This project aims to fully automate performance tuning of databases by choosing physical design structures that speed up query analysis. Our approach removes the need for costly human personnel and automatically adjusts to user queries (and data) whilst they are doing analysis. DBA Bandits are not only able to successfully tune unpredictable and ad hoc workloads (unknown a priori), but also provide statistical guarantees on the fitness of proposed design structures – first such guarantees in the world of database performance tuning.
+# subtitle: Performance tuning is a crucial step in database preparation since it enables fast query responses to user enquiries. This project aims to fully automate performance tuning of databases by choosing physical design structures that speed up query analysis. Our approach removes the need for costly human personnel and automatically adjusts to user queries (and data) whilst they are doing analysis. DBA Bandits are not only able to successfully tune unpredictable and ad hoc workloads (unknown a priori), but also provide statistical guarantees on the fitness of proposed design structures – first such guarantees in the world of database performance tuning.
 author: Renata
 categories: MAB
 banner:
@@ -22,7 +22,9 @@ top: 1
 sidebar: []
 ---
 
+<p><b>
 Performance tuning is a crucial step in database preparation since it enables fast query responses to user enquiries. This project aims to fully automate performance tuning of databases by choosing physical design structures that speed up query analysis. Our approach removes the need for costly human personnel and automatically adjusts to user queries (and data) whilst they are doing analysis. DBA Bandits are not only able to successfully tune unpredictable and ad hoc workloads (unknown a priori), but also provide statistical guarantees on the fitness of proposed design structures – first such guarantees in the world of database performance tuning.
+</b></p>
 
 ### 1. No DBA? No regret! Multi-armed bandits for index tuning of analytical and HTAP workloads with provable guarantees
 
