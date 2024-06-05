@@ -166,11 +166,11 @@ header_pages:
   - about.html
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+defaults:
+  home:
+    heading: "From data to rapid insights with AI-powered databases"
+    subheading: "AI-powered databases automate, enhance, and expedite complex data analysis tasks."
+    banner: "/assets/images/banners/home.png"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
