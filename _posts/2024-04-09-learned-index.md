@@ -18,7 +18,7 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 tags: learning index tunning 
-top: 2
+top: 3
 sidebar: []
 ---
 
@@ -36,7 +36,7 @@ Learned indexes leverage Machine Learning (ML) models to approximate the distrib
 <p><b>SIGMOD, 2023. Updatable Learned Indexes Meet Disk-Resident DBMS - From Evaluations to Design Choices. H. Lan, Z. Bao, S. Culpepper, and <u>R. Borovica-Gajic</u>. <a href="/data/2023_sigmod.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2023_sigmod_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://dl.acm.org/doi/10.1145/3589284" target="_blank">Link</a>&nbsp;<a href="https://dblp.org/rec/journals/pacmmod/LanBCB23.html?view=bibtex" target="_blank">BibTex</a>&nbsp;<a href="https://github.com/rmitbggroup/LearnedIndexDiskExp" target="_blank">Code</a></b></p>  
 
 <div style="display: flex; justify-content: center;">
-    <embed src="https://renata.borovica-gajic.com/data/slides/2023_sigmod_slides.pdf" width="80%" height="400" />
+    <embed src="/data/2023_sigmod_slides.pdf" width="80%" height="400" />
 </div>
 
 ### 3. Efficient Index Learning via Model Reuse and Fine-tuning
@@ -45,7 +45,7 @@ Learned indexes leverage Machine Learning (ML) models to approximate the distrib
 
 
 <div style="display: flex; justify-content: center;">
-    <embed src="https://renata.borovica-gajic.com/data/slides/2023_dbml_slides.pdf" width="80%" height="400" />
+    <embed src="/data/2023_dbml_slides.pdf" width="80%" height="400" />
 </div>
 
 ### 4. Function Interpolation for Learned Index Structures
@@ -54,5 +54,5 @@ Learned indexes leverage Machine Learning (ML) models to approximate the distrib
 
 
 <div style="display: flex; justify-content: center;">
-    <embed src="https://renata.borovica-gajic.com/data/slides/2020_adc_slides.pdf" width="80%" height="400" />
+    <embed src="/data/2020_adc_slides.pdf" width="80%" height="400" />
 </div>

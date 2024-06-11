@@ -18,7 +18,7 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 tags: MAB index tunning
-top: 1
+top: 2
 sidebar: []
 ---
 
@@ -47,7 +47,7 @@ Performance tuning is a crucial step in database preparation since it enables fa
 <p><b>ICDM, 2021. Cutting to the Chase with Warm-Start Contextual Bandits. B. Oetomo, M. Perera, <u>R. Borovica-Gajic</u> and B. I. P. Rubinstein. <a href="/data/2021_icdm.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2021_icdm_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://ieeexplore.ieee.org/document/9679034" target="_blank">Link</a>&nbsp;<a href="/data/2021_icdm.mp4" target="_blank">Video</a>&nbsp;<a href="https://dblp.org/rec/conf/icdm/OetomoPBR21.html?view=bibtex" target="_blank">BibTex</a></b></p> 
 
 <div style="display: flex; justify-content: center;">
-    <iframe width="80%" height="400" src="https://renata.borovica-gajic.com/data/videos/2021_icdm.mp4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="80%" height="400" src="/data/2021_icdm.mp4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### 5. DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees
