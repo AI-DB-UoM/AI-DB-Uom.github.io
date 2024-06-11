@@ -56,19 +56,21 @@
     }
 
     imgEls.forEach((imgEl) => {
-      imgEl.outerHTML = `
-      <a class="photo-swipe"
-        href="${imgEl.src}"
-        data-pswp-width="${
-          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
-        }"
-        data-pswp-height="${
-          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
-        }"
-        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
-        target="_blank">
-        ${imgEl.outerHTML}
-      </a>`;
+      if (imgEl.id != "sp_id") {
+        imgEl.outerHTML = `
+        <a class="photo-swipe"
+          href="${imgEl.src}"
+          data-pswp-width="${
+            Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+          }"
+          data-pswp-height="${
+            Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+          }"
+          data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+          target="_blank">
+          ${imgEl.outerHTML}
+        </a>`;
+      }
     });
 
     // Initialize PhotoSwipe 5

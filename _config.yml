@@ -163,7 +163,9 @@ header_pages:
   # - archives.html
   # - categories.html
   # - tags.html
+  - sponsors.html
   - about.html
+
 
 # Page default value
 defaults:

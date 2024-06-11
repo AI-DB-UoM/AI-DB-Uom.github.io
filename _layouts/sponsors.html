@@ -1,0 +1,46 @@
+---
+layout: framework
+<!-- sidebar: archive-list -->
+---
+
+<!-- {%- if site.posts.size > 0 -%}
+
+  {% include functions.html func='log' level='debug' msg='Get datetimes value' %}
+
+  {% assign filter = '%Y' %}
+  {% include functions.html func='get_datetimes' %}
+  {% assign datetimes = return %}
+
+  {% assign keys = datetimes | reverse %}
+  {% assign field = 'date' %}
+  {% include views/segments.html %}
+
+{%- endif -%}  -->
+<!DOCTYPE html>
+<html lang="en">
+
+    <header>
+        <h2 style="text-align: center; font-size: 30px; padding-bottom: 20px;">Sponsors</h2>
+    </header>
+    <div class="center">
+        <div class="row" style="display: flex; justify-content: center; gap: 100px;">
+            <div class="6u 12u(mobile)" style="display: flex; flex-direction: column; align-items: center;">
+                <h3 style="text-align: center;">Australian Research Council</h3>
+                <a href="https://rms.arc.gov.au/RMS/Report/Download/Report/1b0c8b2e-7bb0-4f2d-8f52-ad207cfbb41d/239" target="_blank"><img id="sp_id" src="/images/arc2.png" alt="arc"></a>
+            <p>
+                </p><h3 style="text-align: center; margin-top: 50px;">Google</h3>
+                <a href="https://research.google/outreach/award-for-inclusion-research-program/recipients/?filtertab=2021" target="_blank"><img id="sp_id" src="/images/google2.png" alt="google"></a>
+            <p></p>
+        </div>
+            <div  style="display: flex; flex-direction: column; align-items: center;">
+                <h3 style="text-align: center;">L'Oréal</h3>
+                <a  href="https://www.loreal.com/en/australia/news/news/2023-lorealunesco-for-women-in-science-fellows/" target="_blank"><img id="sp_id" src="/images/loreal.png" alt="google"></a>
+            <p>
+                </p><h3 style="text-align: center; margin-top: 50px;">Telstra</h3>
+                <a  href="https://research.unimelb.edu.au/strengths/updates/news/smart-traffic-sensors-that-reduce-gridlock-and-unlock-the-economy#:~:text=Smart%20traffic%20sensors%20that%20reduce%20gridlock%20%E2%80%93%20and%20unlock%20the%20economy,-5%20Minute%20read&amp;text=Traffic%20congestion%20is%20estimated%20to,impact%20of%20smart%20traffic%20lights." target="_blank"><img id="sp_id" src="/images/telstra.png" alt="google"></a>
+            <p></p>
+            </div>
+        </div>
+    </div>	
+
+</html>
