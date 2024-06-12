@@ -616,16 +616,30 @@ html {
     height: 100%;
   }
 
+  .page-banner-img div.home{
+    height: 570px;
+    width: 570px;
+    margin-top: 70px;
+  }
+ 
+  .page-banner-img.home{
+    background-color: #133577;
+    display: flex;
+    justify-content: end;
+  }
+
   .page-banner-inner {
     @include vertical-center(relative);
 
     color: $banner-text-color;
     padding: 10px 5px;
     text-shadow: 1px 1px 2px #33333355;
-    padding-right: 300px;
 
     & > *:first-child {
       margin: 0;
+      .page-banner-heading{
+        padding-right: 300px;
+      }
 
       > :nth-child(1) {
         @include relative-font-size(3.9);

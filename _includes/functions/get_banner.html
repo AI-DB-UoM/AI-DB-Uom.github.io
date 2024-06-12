@@ -10,6 +10,7 @@
   {% assign banner_image = return | relative_url %}
 {%- else -%}
   {% assign banner_image = banner | relative_url %}
+  {% assign banner_type = 'home' %}
 {%- endif -%}
 
 {%- include functions.html func='log' level='debug' msg='Get banner_background value' -%}
