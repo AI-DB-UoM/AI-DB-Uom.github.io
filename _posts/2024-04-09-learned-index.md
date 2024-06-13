@@ -28,12 +28,12 @@ Learned indexes leverage Machine Learning (ML) models to approximate the distrib
 
 ### 1. A Fully On-disk Updatable Learned Index
 
-<p><b>ICDE, 2024. A Fully On-disk Updatable Learned Index. H. Lan, Z. Bao, S. Culpepper, <u>R. Borovica-Gajic</u> and Y. Dong. <a href="/data/2024_icde.pdf" target="_blank">PDF</a>&nbsp;<a href="https://github.com/rmitbggroup/AULID" target="_blank">Code</a>&nbsp;</b>(to appear)</p>
+<p><b>ICDE, 2024. A Fully On-disk Updatable Learned Index. H. Lan, Z. Bao, S. Culpepper, R. Borovica-Gajic and Y. Dong. <a href="/data/2024_icde.pdf" target="_blank">PDF</a>&nbsp;</b></p>
 
 
 ### 2. Updatable Learned Indexes Meet Disk-Resident DBMS - From Evaluations to Design Choices
 
-<p><b>SIGMOD, 2023. Updatable Learned Indexes Meet Disk-Resident DBMS - From Evaluations to Design Choices. H. Lan, Z. Bao, S. Culpepper, and <u>R. Borovica-Gajic</u>. <a href="/data/2023_sigmod.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2023_sigmod_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://dl.acm.org/doi/10.1145/3589284" target="_blank">Link</a>&nbsp;<a href="https://dblp.org/rec/journals/pacmmod/LanBCB23.html?view=bibtex" target="_blank">BibTex</a>&nbsp;<a href="https://github.com/rmitbggroup/LearnedIndexDiskExp" target="_blank">Code</a></b></p>  
+<p><b>SIGMOD, 2023. Updatable Learned Indexes Meet Disk-Resident DBMS - From Evaluations to Design Choices. H. Lan, Z. Bao, S. Culpepper, and R. Borovica-Gajic. <a href="/data/2023_sigmod.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2023_sigmod_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://dl.acm.org/doi/10.1145/3589284" target="_blank">Link</a>&nbsp;<a href="https://dblp.org/rec/journals/pacmmod/LanBCB23.html?view=bibtex" target="_blank">BibTex</a>&nbsp;<a href="https://github.com/rmitbggroup/LearnedIndexDiskExp" target="_blank">Code</a></b></p>  
 
 <div style="display: flex; justify-content: center;">
     <embed src="/data/2023_sigmod_slides.pdf" width="80%" height="400" />
@@ -41,7 +41,7 @@ Learned indexes leverage Machine Learning (ML) models to approximate the distrib
 
 ### 3. Efficient Index Learning via Model Reuse and Fine-tuning
 
-<p><b>DBML@ICDE, 2023. Efficient Index Learning via Model Reuse and Fine-tuning. G. Liu, J. Qi, L. Kulik, K. Soga, <u>R. Borovica-Gajic</u>, and B. I. P. Rubinstein. <a href="/data/2023_dbml.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2023_dbml_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://ieeexplore.ieee.org/document/10148123" target="_blank">Link</a>&nbsp;<a href="https://dblp.org/rec/conf/icde/LiuQKSBR23.html?view=bibtex" target="_blank">BibTex</a></b></p> 
+<p><b>DBML@ICDE, 2023. Efficient Index Learning via Model Reuse and Fine-tuning. G. Liu, J. Qi, L. Kulik, K. Soga, R. Borovica-Gajic, and B. I. P. Rubinstein. <a href="/data/2023_dbml.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2023_dbml_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://ieeexplore.ieee.org/document/10148123" target="_blank">Link</a>&nbsp;<a href="https://dblp.org/rec/conf/icde/LiuQKSBR23.html?view=bibtex" target="_blank">BibTex</a></b></p> 
 
 
 <div style="display: flex; justify-content: center;">
@@ -50,7 +50,7 @@ Learned indexes leverage Machine Learning (ML) models to approximate the distrib
 
 ### 4. Function Interpolation for Learned Index Structures
 
-<p><b>9 ADC, 2020. Function Interpolation for Learned Index Structures. N. F. Setiawan, B. I. P. Rubinstein, and <u>R. Borovica-Gajic</u>. <a href="/data/2020_adc.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2020_adc_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-39469-1_6" target="_blank">Link</a>&nbsp;<a href="https://dblp.org/rec/bibtex/conf/adc/SetiawanRB20" target="_blank">BibTex</a> &nbsp;<font color="red">(Best Student Paper Honorable Mention)</font></b></p> 
+<p><b>9 ADC, 2020. Function Interpolation for Learned Index Structures. N. F. Setiawan, B. I. P. Rubinstein, and R. Borovica-Gajic. <a href="/data/2020_adc.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2020_adc_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-39469-1_6" target="_blank">Link</a>&nbsp;<a href="https://dblp.org/rec/bibtex/conf/adc/SetiawanRB20" target="_blank">BibTex</a> &nbsp;<font color="red">(Best Student Paper Honorable Mention)</font></b></p> 
 
 
 <div style="display: flex; justify-content: center;">

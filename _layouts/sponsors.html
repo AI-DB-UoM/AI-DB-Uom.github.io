@@ -3,20 +3,7 @@ layout: framework
 <!-- sidebar: archive-list -->
 ---
 
-<!-- {%- if site.posts.size > 0 -%}
-
-  {% include functions.html func='log' level='debug' msg='Get datetimes value' %}
-
-  {% assign filter = '%Y' %}
-  {% include functions.html func='get_datetimes' %}
-  {% assign datetimes = return %}
-
-  {% assign keys = datetimes | reverse %}
-  {% assign field = 'date' %}
-  {% include views/segments.html %}
-
-{%- endif -%}  -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
     <header>
@@ -41,6 +28,36 @@ layout: framework
             <p></p>
             </div>
         </div>
+    </div>	
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <header>
+        <h2 style="text-align: center; font-size: 30px; padding-bottom: 20px;">Sponsors</h2>
+    </header>
+    <div class="center" style = "margin-top:50px">
+        <div class="row" style="display: flex; justify-content:center;">
+            <div class="6u 12u(mobile)" style="display: flex; align-items:flex-start; gap:100px;">
+                <div style="display: flex; align-items:center; flex-direction: column;">
+                    <h3 style="text-align: center;">Australian Research Council</h3>
+                    <a href="https://rms.arc.gov.au/RMS/Report/Download/Report/1b0c8b2e-7bb0-4f2d-8f52-ad207cfbb41d/239" target="_blank"><img id="sp_id" src="/images/arc2.png" alt="arc"></a>
+                </div>
+                <div style="display: flex; align-items:center; flex-direction: column;">
+                    <h3 style="text-align: center;">Google</h3>
+                    <a href="https://research.google/outreach/award-for-inclusion-research-program/recipients/?filtertab=2021" target="_blank"><img id="sp_id" src="/images/google2.png" alt="google"></a>
+                </div>    
+                <div style="display: flex; align-items:center; flex-direction: column;">
+                    <h3 style="text-align: center;">L'Oréal</h3>
+                    <a  href="https://www.loreal.com/en/australia/news/news/2023-lorealunesco-for-women-in-science-fellows/" target="_blank"><img id="sp_id" src="/images/loreal.png" alt="google"></a>
+                </div> 
+            </div>
+        </div> 
+    </div>
+    </div>
+</div>
     </div>	
 
 </html>
