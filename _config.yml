@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: AI-DB
+title: AI-powered Databases
 email: guanlil1@unimelb.edu.au
 author: Guanli Liu
 
@@ -40,7 +40,7 @@ author: Guanli Liu
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Copyright © 2024 Renata's AI-DB Group and the University of Melbourne. Supported by ARC."
+copyright: "Copyright © 2024 Renata Borovica-Gajic, AI-DB Group and the University of Melbourne. Supported by the funding from the Australian Research Council (ARC)."
 
 
 # description: >- # this means to ignore newlines until "baseurl:"
