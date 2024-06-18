@@ -28,7 +28,11 @@ Learned indexes leverage Machine Learning (ML) models to approximate the distrib
 
 ### 1. A Fully On-disk Updatable Learned Index
 
-<p><b>ICDE, 2024. A Fully On-disk Updatable Learned Index. H. Lan, Z. Bao, S. Culpepper, R. Borovica-Gajic and Y. Dong. <a href="/data/2024_icde.pdf" target="_blank">PDF</a>&nbsp;</b></p>
+<p><b>ICDE, 2024. A Fully On-disk Updatable Learned Index. H. Lan, Z. Bao, S. Culpepper, R. Borovica-Gajic and Y. Dong. <a href="/data/2024_icde.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2024_icde_slides.pdf" target="_blank">Slides</a>&nbsp;</b></p>
+
+<div style="display: flex; justify-content: center;">
+    <embed src="/data/2024_icde_slides.pdf" width="80%" height="400" />
+</div>
 
 
 ### 2. Updatable Learned Indexes Meet Disk-Resident DBMS - From Evaluations to Design Choices
