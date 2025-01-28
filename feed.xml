@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.0">Jekyll</generator><link href="/AI-DB-Uom.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="/AI-DB-Uom.github.io/" rel="alternate" type="text/html" /><updated>2025-01-28T02:53:40+00:00</updated><id>/AI-DB-Uom.github.io/feed.xml</id><title type="html">AI-powered Databases</title><subtitle>This is the description for AI-Driven databases.</subtitle><author><name>Guanli Liu</name></author><entry><title type="html">SeLeP: Learning Based Semantic Prefetching for Exploratory Database Workloads</title><link href="/AI-DB-Uom.github.io/prefetch/2024/06/11/selep.html" rel="alternate" type="text/html" title="SeLeP: Learning Based Semantic Prefetching for Exploratory Database Workloads" /><published>2024-06-11T00:00:00+00:00</published><updated>2024-06-11T00:00:00+00:00</updated><id>/AI-DB-Uom.github.io/prefetch/2024/06/11/selep</id><content type="html" xml:base="/AI-DB-Uom.github.io/prefetch/2024/06/11/selep.html"><![CDATA[<p><b>
+Semantic prefetching aims to incorporate actual data values, rather than just logical block addresses, in access pattern recognition. This method has proven to be more effective than address-based prefetchers, as the result of each query in an exploratory session influences the formulation of subsequent queries. This project focuses on developing an accurate and scalable semantic prefetcher to enhance the interactivity of exploratory tools by fetching data in advance of requests. We formulate the prefetching task as a time-series forecasting problem, learning the underlying access patterns using the encodings of data values from previously accessed blocks. Our approach is designed to improve hit ratios and reduce query I/O time for both navigational and SQL-based workloads.
+
+</b></p>
+
+<h3 id="1-selep-learning-based-semantic-prefetching-for-exploratory-database-workloads">1. SeLeP: Learning Based Semantic Prefetching for Exploratory Database Workloads</h3>
+
+<p><b>VLDB, 2024. SeLeP: Learning Based Semantic Prefetching for Exploratory Database Workloads. F. Zirak, F. Choudhury, and R. Borovica-Gajic. <a href="/data/2024_vldb_slides_selep.pdf" target="_blank">Slides</a>&nbsp;<a href="/data/2024_vldb_poster_selep.pdf" target="_blank">Poster</a>&nbsp;<a href="/data/2024_vldb_selep.pdf" target="_blank">PDF</a>&nbsp;<a href="https://dl.acm.org/doi/10.14778/3659437.3659458" target="_blank">Link</a>&nbsp;<a href="https://github.com/fzirak/SeLeP" target="_blank">Code</a>&nbsp;</b></p>
+
+<div style="display: flex; justify-content: center;">
+    <embed src="/data/2024_vldb_slides_selep.pdf" width="80%" height="400" />
+</div>]]></content><author><name>Farzaneh</name></author><category term="Prefetch" /><category term="learning" /><category term="index" /><category term="tunning" /><summary type="html"><![CDATA[Semantic prefetching aims to incorporate actual data values, rather than just logical block addresses, in access pattern recognition. This method has proven to be more effective than address-based prefetchers, as the result of each query in an exploratory session influences the formulation of subsequent queries. This project focuses on developing an accurate and scalable semantic prefetcher to enhance the interactivity of exploratory tools by fetching data in advance of requests. We formulate the prefetching task as a time-series forecasting problem, learning the underlying access patterns using the encodings of data values from previously accessed blocks. Our approach is designed to improve hit ratios and reduce query I/O time for both navigational and SQL-based workloads.]]></summary></entry><entry><title type="html">Learned indexes with Machine Learning</title><link href="/AI-DB-Uom.github.io/learned-index/2024/04/09/learned-index.html" rel="alternate" type="text/html" title="Learned indexes with Machine Learning" /><published>2024-04-09T00:00:00+00:00</published><updated>2024-04-09T00:00:00+00:00</updated><id>/AI-DB-Uom.github.io/learned-index/2024/04/09/learned-index</id><content type="html" xml:base="/AI-DB-Uom.github.io/learned-index/2024/04/09/learned-index.html"><![CDATA[<p><b>
+Learned indexes leverage Machine Learning (ML) models to approximate the distribution of data towards building auxiliary data structures that can replace traditional database indexes. Learned indexes deliver the promise of reduced memory footprint and faster data retrieval. We investigate the efficiency of existing learned models, and propose advancements with respect to the model complexity as well as suitability of the learned indexes for the on-disk placement.
+</b></p>
+
+<h3 id="1-a-fully-on-disk-updatable-learned-index">1. A Fully On-disk Updatable Learned Index</h3>
+
+<p><b>ICDE, 2024. A Fully On-disk Updatable Learned Index. H. Lan, Z. Bao, S. Culpepper, R. Borovica-Gajic and Y. Dong. <a href="/data/2024_icde.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2024_icde_slides.pdf" target="_blank">Slides</a>&nbsp;</b></p>
+
+<div style="display: flex; justify-content: center;">
+    <embed src="/data/2024_icde_slides.pdf" width="80%" height="400" />
+</div>
+
+<h3 id="2-updatable-learned-indexes-meet-disk-resident-dbms---from-evaluations-to-design-choices">2. Updatable Learned Indexes Meet Disk-Resident DBMS - From Evaluations to Design Choices</h3>
+
+<p><b>SIGMOD, 2023. Updatable Learned Indexes Meet Disk-Resident DBMS - From Evaluations to Design Choices. H. Lan, Z. Bao, S. Culpepper, and R. Borovica-Gajic. <a href="/data/2023_sigmod.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2023_sigmod_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://dl.acm.org/doi/10.1145/3589284" target="_blank">Link</a>&nbsp;<a href="https://dblp.org/rec/journals/pacmmod/LanBCB23.html?view=bibtex" target="_blank">BibTex</a>&nbsp;<a href="https://github.com/rmitbggroup/LearnedIndexDiskExp" target="_blank">Code</a></b></p>
+
+<div style="display: flex; justify-content: center;">
+    <embed src="/data/2023_sigmod_slides.pdf" width="80%" height="400" />
+</div>
+
+<h3 id="3-efficient-index-learning-via-model-reuse-and-fine-tuning">3. Efficient Index Learning via Model Reuse and Fine-tuning</h3>
+
+<p><b>DBML@ICDE, 2023. Efficient Index Learning via Model Reuse and Fine-tuning. G. Liu, J. Qi, L. Kulik, K. Soga, R. Borovica-Gajic, and B. I. P. Rubinstein. <a href="/data/2023_dbml.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2023_dbml_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://ieeexplore.ieee.org/document/10148123" target="_blank">Link</a>&nbsp;<a href="https://dblp.org/rec/conf/icde/LiuQKSBR23.html?view=bibtex" target="_blank">BibTex</a></b></p>
+
+<div style="display: flex; justify-content: center;">
+    <embed src="/data/2023_dbml_slides.pdf" width="80%" height="400" />
+</div>
+
+<h3 id="4-function-interpolation-for-learned-index-structures">4. Function Interpolation for Learned Index Structures</h3>
+
+<p><b>9 ADC, 2020. Function Interpolation for Learned Index Structures. N. F. Setiawan, B. I. P. Rubinstein, and R. Borovica-Gajic. <a href="/data/2020_adc.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2020_adc_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-39469-1_6" target="_blank">Link</a>&nbsp;<a href="https://dblp.org/rec/bibtex/conf/adc/SetiawanRB20" target="_blank">BibTex</a> &nbsp;<font color="red">(Best Student Paper Honorable Mention)</font></b></p>
+
+<div style="display: flex; justify-content: center;">
+    <embed src="/data/2020_adc_slides.pdf" width="80%" height="400" />
+</div>]]></content><author><name>Renata</name></author><category term="Learned-Index" /><category term="learning" /><category term="index" /><category term="tunning" /><summary type="html"><![CDATA[Learned indexes leverage Machine Learning (ML) models to approximate the distribution of data towards building auxiliary data structures that can replace traditional database indexes. Learned indexes deliver the promise of reduced memory footprint and faster data retrieval. We investigate the efficiency of existing learned models, and propose advancements with respect to the model complexity as well as suitability of the learned indexes for the on-disk placement.]]></summary></entry><entry><title type="html">Database performance tuning with Multi-armed Bandits</title><link href="/AI-DB-Uom.github.io/mab/2024/04/01/multi-armed-bandits.html" rel="alternate" type="text/html" title="Database performance tuning with Multi-armed Bandits" /><published>2024-04-01T00:00:00+00:00</published><updated>2024-04-01T00:00:00+00:00</updated><id>/AI-DB-Uom.github.io/mab/2024/04/01/multi-armed-bandits</id><content type="html" xml:base="/AI-DB-Uom.github.io/mab/2024/04/01/multi-armed-bandits.html"><![CDATA[<p><b>
+Performance tuning is a crucial step in database preparation since it enables fast query responses to user enquiries. This project aims to fully automate performance tuning of databases by choosing physical design structures that speed up query analysis. Our approach removes the need for costly human personnel and automatically adjusts to user queries (and data) whilst they are doing analysis. DBA Bandits are not only able to successfully tune unpredictable and ad hoc workloads (unknown a priori), but also provide statistical guarantees on the fitness of proposed design structures – first such guarantees in the world of database performance tuning.
+</b></p>
+
+<h3 id="1-no-dba-no-regret-multi-armed-bandits-for-index-tuning-of-analytical-and-htap-workloads-with-provable-guarantees">1. No DBA? No regret! Multi-armed bandits for index tuning of analytical and HTAP workloads with provable guarantees</h3>
+
+<p><b>TKDE, 2023. No DBA? No regret! Multi-armed bandits for index tuning of analytical and HTAP workloads with provable guarantees. M. Perera, B. Oetomo, B. I. P. Rubinstein, and R. Borovica-Gajic. <a href="/data/2023_tkde.pdf" target="_blank">PDF</a>&nbsp;<a href="https://ieeexplore.ieee.org/abstract/document/10113193" target="_blank">Link</a>&nbsp;<a href="https://dblp.org/rec/journals/tkde/PereraORB23.html?view=bibtex" target="_blank">BibTex</a></b></p>
+
+<h3 id="2-cutting-to-the-chase-with-warm-start-contextual-bandits">2. Cutting to the Chase with Warm-Start Contextual Bandits</h3>
+
+<p><b>KAIS, 2023. Cutting to the Chase with Warm-Start Contextual Bandits. B. Oetomo, M. Perera, R. Borovica-Gajic and B. I. P. Rubinstein. <a href="/data/2023_kais.pdf" target="_blank">PDF</a>&nbsp;<a href="https://link.springer.com/article/10.1007/s10115-023-01861-2" target="_blank">Link</a>&nbsp;<a href="https://dblp.org/rec/journals/kais/OetomoPBR23.html?view=bibtex" target="_blank">BibTex</a></b></p>
+
+<h3 id="3-hmab-self-driving-hierarchy-of-bandits-for-integrated-physical-database-design-tuning">3. HMAB: Self-Driving Hierarchy of Bandits for Integrated Physical Database Design Tuning</h3>
+
+<p><b>VLDB, 2022. HMAB: Self-Driving Hierarchy of Bandits for Integrated Physical Database Design Tuning. M. Perera, B. Oetomo, B. I. P. Rubinstein, and R. Borovica-Gajic. <a href="/data/2022_vldb.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2022_vldb_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://www.vldb.org/pvldb/vol16/p216-perera.pdf" target="_blank">Link</a>&nbsp;<a href="https://www.youtube.com/watch?v=98xl-A9ZSOs" target="_blank">Video</a>&nbsp;<a href="https://dblp.org/rec/journals/pvldb/PereraORB22.html?view=bibtex" target="_blank">BibTex</a>&nbsp;<a href="https://github.com/malingaperera/HMAB" target="_blank">Code</a></b></p>
+
+<div style="display: flex; justify-content: center;">
+    <iframe width="80%" height="400" src="https://www.youtube.com/embed/98xl-A9ZSOs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<h3 id="4-cutting-to-the-chase-with-warm-start-contextual-bandits">4. Cutting to the Chase with Warm-Start Contextual Bandits</h3>
+
+<p><b>ICDM, 2021. Cutting to the Chase with Warm-Start Contextual Bandits. B. Oetomo, M. Perera, R. Borovica-Gajic and B. I. P. Rubinstein. <a href="/data/2021_icdm.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2021_icdm_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://ieeexplore.ieee.org/document/9679034" target="_blank">Link</a>&nbsp;<a href="/data/2021_icdm.mp4" target="_blank">Video</a>&nbsp;<a href="https://dblp.org/rec/conf/icdm/OetomoPBR21.html?view=bibtex" target="_blank">BibTex</a></b></p>
+
+<div style="display: flex; justify-content: center;">
+    <iframe width="80%" height="400" src="/data/2021_icdm.mp4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<h3 id="5-dba-bandits-self-driving-index-tuning-under-ad-hoc-analytical-workloads-with-safety-guarantees">5. DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees</h3>
+
+<p><b>ICDE, 2021. DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees. M. Perera, B. Oetomo, B. I. P. Rubinstein, and R. Borovica-Gajic. <a href="/data/2021_icde.pdf" target="_blank">PDF</a>&nbsp;<a href="/data/2021_icde_slides.pdf" target="_blank">Slides</a>&nbsp;<a href="https://ieeexplore.ieee.org/document/9458699" target="_blank">Link</a>&nbsp;<a href="https://www.youtube.com/watch?v=7PohjU29Hjk" target="_blank">Video</a>&nbsp;<a href="https://dblp.uni-trier.de/rec/conf/icde/PereraORB21.html?view=bibtex" target="_blank">BibTex</a>&nbsp;<a href="https://github.com/malingaperera/DBABandits" target="_blank">Code</a></b></p>
+
+<div style="display: flex; justify-content: center;">
+    <iframe width="80%" height="400" src="https://www.youtube.com/embed/7PohjU29Hjk" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>]]></content><author><name>Renata</name></author><category term="MAB" /><category term="MAB" /><category term="index" /><category term="tunning" /><summary type="html"><![CDATA[Performance tuning is a crucial step in database preparation since it enables fast query responses to user enquiries. This project aims to fully automate performance tuning of databases by choosing physical design structures that speed up query analysis. Our approach removes the need for costly human personnel and automatically adjusts to user queries (and data) whilst they are doing analysis. DBA Bandits are not only able to successfully tune unpredictable and ad hoc workloads (unknown a priori), but also provide statistical guarantees on the fitness of proposed design structures – first such guarantees in the world of database performance tuning.]]></summary></entry></feed>
